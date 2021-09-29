@@ -1,7 +1,7 @@
 # Config for oh-my-zsh.
 export ZSH="/home/bp/.oh-my-zsh"
-ZSH_THEME="clean"
 plugins=(git ssh-agent)
+ZSH_THEME="alanpeabody"
 source $ZSH/oh-my-zsh.sh
 
 # Fixes buggy zsh autocomplete.
