@@ -1,9 +1,6 @@
 # mod is WIN key
 set $mod Mod4
 
-# font
-font pango:DejaVu Sans Mono 14
-
 for_window [class=".*"] border pixel 5
 smart_gaps on
 gaps inner 10
@@ -177,6 +174,7 @@ client.background       #F8F8F2
 
 bar {
   status_command i3status
+  font pango:FontAwesome 14
   colors {
     background #282A36
     statusline #F8F8F2
