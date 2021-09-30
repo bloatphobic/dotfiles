@@ -12,3 +12,6 @@ export LANG=en_US.UTF-8
 if [ -z "${DISPLAY}" ] && [ "${XDG_VTNR}" -eq 1 ]; then
 	exec startx
 fi
+
+# Aliases.
+alias vim="nvim"

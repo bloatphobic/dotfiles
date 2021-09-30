@@ -11,3 +11,5 @@ cp ~/.Xmodmap ~/dotfiles/xorg/.Xmodmap
 cp ~/.config/i3/config ~/dotfiles/i3/config
 
 cp ~/.config/i3status/config ~/dotfiles/i3status/config
+
+cp ~/.config/nvim/init.vim ~/dotfiles/nvim/init.vim
